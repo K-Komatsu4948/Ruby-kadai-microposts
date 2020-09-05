@@ -47,5 +47,6 @@ class User < ApplicationRecord
     def favorites_micropost?(other_user)
       self.favorites_micropost.include?(other_user)
     end
+    
 
 end
