@@ -11,9 +11,7 @@ Rails.application.routes.draw do
     member do
       get :followings
       get :followers
-      
-      get :favorites_micropost
-      get :favorites_user
+      get :likes
     end
     collection do
       get :serch
